@@ -157,30 +157,29 @@ public class Q1Test {
 
         // check(inorder, preorder, postorder)
         if (check(num3, num1, num2)) {
-            return "Traversal1 - Preorder, Traversal2 - Postorder, Traversal3 - Inorder";
+            return "Traversal 1 - Preorder, Traversal 2 - Postorder, Traversal 3 - Inorder";
         }
 
         if (check(num2, num1, num3)) {
-            return "Traversal1 - Preorder, Traversal2 - Inorder, Traversal3 - Postorder";
+            return "Traversal 1 - Preorder, Traversal 2 - Inorder, Traversal 3 - Postorder";
         }
 
         if (check(num3, num2, num1)) {
-            return "Traversal1 - Postorder, Traversal2 - Preorder, Traversal3 - Inorder";
+            return "Traversal 1 - Postorder, Traversal 2 - Preorder, Traversal 3 - Inorder";
         }
 
         if (check(num1, num2, num3)) {
-            return "Traversal1 - Inorder, Traversal2 - Preorder, Traversal3 - Postorder";
+            return "Traversal 1 - Inorder, Traversal 2 - Preorder, Traversal 3 - Postorder";
         }
 
         if (check(num2, num3, num1)) {
-            return "Traversal1 - Postorder, Traversal2 - Inorder, Traversal3 - Preorder";
+            return "Traversal 1 - Postorder, Traversal 2 - Inorder, Traversal 3 - Preorder";
         }
 
         if (check(num1, num3, num2)) {
-            return "Traversal1 - Inorder, Traversal2 - Postorder, Traversal3 - Preorder";
+            return "Traversal 1 - Inorder, Traversal 2 - Postorder, Traversal 3 - Preorder";
         }
 
         return "Invalid traversals";
     }
 }
-
